@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Steam</title>
+        <style>
+            table{
+                text-align: center;
+            }
+            th{
+                text-align: left;
+                font-size: 64px;
+                color: wheat;
+            }
+            td{
+                text-align: center;
+                padding-left: 0px;
+                padding-right: 50px;
+                padding-top: 5px;
+                font-size: 50px;
+            }
+            .Price{
+                text-align: center;
+                font-weight: bolder;
+                color: red;
+            }
+            .Game{
+                font-weight: bold;
+                text-align: left;
+                color: goldenrod;
+            }
+            button{
+                width: 200px;
+                height: 50px;
+                border: 3px solid black;
+                background-color: gray;
+            }
+            button:hover{
+                background-color: purple;
+            }
+            input{
+                margin: 10px;
+                padding: 10px;
+                font-size: 24px;
+            }
+        </style>
+    </head>
+    <body style="background-color: black;">
+        <div>
+            <table>
+                <tr>
+                    <th>Game</th>
+                    <th>Price</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td class="Game">Call Of Pripyat</td>
+                        <td class="Price">249 UAH</td>
+                    </tr>
+                    <tr>
+                        <td class="Game">Clear Sky</td>
+                        <td class="Price">120 UAH</td>
+                    </tr>
+                    <tr>
+                        <td class="Game">GTA V</td>
+                        <td class="Price">699 UAH</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <form>
+            <input list="games" placeholder="Enter a name" name="userGame">
+            <datalist id="games">
+                <option>Call Of Pripyat</option>
+                <option>GTA V</option>
+                <option>Clear Sky</option>
+            </datalist>
+        </form>
+
+        <button>Test</button>
+    </body>
+</html>
