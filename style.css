@@ -21,7 +21,7 @@ td{
 .Game{
     font-weight: bold;
     text-align: left;
-    color: goldenrod;
+    color: gold;
 }
 button{
     width: 200px;
@@ -30,7 +30,7 @@ button{
     background-color: gray;
 }
 button:hover{
-    background-color: purple;
+    background-color: red;
 }
 input{
     margin: 10px;
